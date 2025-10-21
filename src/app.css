@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.content
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.content-regular
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.titlefont-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .titlefont-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .titlefont-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .titlefont-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  *
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+  }
