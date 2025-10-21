@@ -1,0 +1,55 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/_app/immutable/.+",
+			"headers": {
+				"cache-control": "public, immutable, max-age=31536000"
+			}
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "^/?(?:/__data.json)?$",
+			"dest": "/"
+		},
+		{
+			"src": "^/contents/?(?:/__data.json)?$",
+			"dest": "/contents"
+		},
+		{
+			"src": "^/dining/?(?:/__data.json)?$",
+			"dest": "/dining"
+		},
+		{
+			"src": "^/elevated/?(?:/__data.json)?$",
+			"dest": "/elevated"
+		},
+		{
+			"src": "^/experience/?(?:/__data.json)?$",
+			"dest": "/experience"
+		},
+		{
+			"src": "^/intro/?(?:/__data.json)?$",
+			"dest": "/intro"
+		},
+		{
+			"src": "^/shopping/?(?:/__data.json)?$",
+			"dest": "/shopping"
+		},
+		{
+			"src": "^/sightseeing/?(?:/__data.json)?$",
+			"dest": "/sightseeing"
+		},
+		{
+			"src": "^/spa/?(?:/__data.json)?$",
+			"dest": "/spa"
+		},
+		{
+			"src": "/.*",
+			"dest": "/![-]/catchall"
+		}
+	],
+	"overrides": {}
+}
