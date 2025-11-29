@@ -16,6 +16,13 @@
             map: "",
         },
         {
+            name: "Mewar",
+            about: "In addition to the all-day dining, our specialty restaurant MEWAR by Vineet, is the newest culinary offering, which is in collaboration with Chef Vineet Bhatia.The restaurant offers modern interpretations of regional and royal delicacies, from the region of Mewar , and is open for Lunch and Dinner.",
+            more: " Lunch : 12:30 PM - 2:30 PM <br> Dinner : operates in two seating <br> First seating : 7:00 PM <br> Second seating : 9:00 PM",
+            imageLocation: "/dining/c.jpg",
+            map: "",
+        },
+        {
             name: "Bar",
             about: "Has an almost labyrinthine layout between domes and through arches that offer uninterrupted views of the lake and gardens. An intricate geometric pattern of green and white marble, sandstone and black granite ornaments the floor, while the antique finish bar is framed by an intricate Mewar arch.",
             more: "Operational from 12P.M. – 12A.M.",
